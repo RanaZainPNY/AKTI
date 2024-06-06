@@ -29,9 +29,47 @@
       #hello:hover {
         width: 500px;
       }
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+      }
+
+      td,
+      th {
+        border: 2px solid black;
+      }
     </style>
   </head>
   <body>
+    <!-- HTML Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Sr</th>
+          <th>Name</th>
+          <th>Subject</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Zain</td>
+          <td>Web development</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Ghazanfar</td>
+          <td>Physics</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Hammad</td>
+          <td>Biology</td>
+        </tr>
+      </tbody>
+    </table>
+
     <!-- HTML Forms -->
     <form style="border: 2px solid red" action="">
       <div>
@@ -81,18 +119,17 @@
       />
       <label for="javascript">JavaScript</label>
 
-
-      <br>
-      <br>
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-      <label for="vehicle1"> I have a bike</label><br>
-      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> I have a car</label><br>
-      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <br />
+      <br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
       <label for="vehicle3"> I have a boat</label>
 
-      <br>
-      <br>
+      <br />
+      <br />
       <button type="submit" value="">Submit</button>
     </form>
     <!-- HTML Tables -->
